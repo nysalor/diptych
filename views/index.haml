@@ -6,8 +6,11 @@
     #header
       %h1 Simple Bookmark
     #content
+      %ul
+        - @entries.each do |entry|
+          %li
+            %a{ href: entry.url } #{entry.url}
       %p
         %form{ action: "/add", method: "post" }
-          %input{ type: "texfield", name: "url" }
+          %input{ type: "texfield", name: "url", size: 100 }
           %input{ type: "submit", value: "send" }
-

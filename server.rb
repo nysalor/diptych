@@ -17,10 +17,12 @@ end
 
 get '/' do
   @title = 'diptych - TOP'
+  @entries = Entries.all
   haml :index
 end
 
 post '/add' do
   @url = params[:url]
-  haml :index
+  Entries.insert :url => @url
+  redirect '/'
 end
