@@ -50,4 +50,12 @@ helpers do
       str
     end
   end
+
+  def timefmt(time)
+    if time
+      time.strftime("%Y-%m-%d %H:%M:%S")
+    else
+      ''
+    end
+  end
 end

@@ -32,7 +32,7 @@
             %tr
               %td
                 %a{ href: add_schema(entry.url) } #{shorten(entry.url)}
-              %td #{entry.created_at}
+              %td #{timefmt(entry.created_at)}
 
       %p
         %form{ action: "/add", method: "post" }
