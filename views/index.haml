@@ -10,6 +10,7 @@
         - @entries.each do |entry|
           %li
             %a{ href: entry.url } #{entry.url}
+            (#{entry.created_at})
       %p
         %form{ action: "/add", method: "post" }
           %input{ type: "texfield", name: "url", size: 100 }
