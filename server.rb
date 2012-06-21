@@ -3,5 +3,5 @@ if development?
 end
 
 get '/' do
-  'Fly me to the moon.'
+  haml :index
 end
