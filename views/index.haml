@@ -1,17 +1,41 @@
 !!!
 %html
   %head
+    %meta{ charset: "utf-8" }/
     %title #{@title}
+    %link{ href: "/css/bootstrap.min.css", rel: "stylesheet" }/
+    :css
+      body {
+      padding-top: 60px;
+      }
+
   %body
-    #header
-      %h1 Simple Bookmark
-    #content
-      %ul
-        - @entries.each do |entry|
-          %li
-            %a{ href: add_schema(entry.url) } #{shorten(entry.url)}
-            (#{entry.created_at})
+    .container
+      .navbar.navbar-fixed-top
+        .navbar-inner
+          .container
+            %h1
+              %a.brand{ href: '/' } Diptych
+            .nav-collapse
+              %ul.nav
+                %li
+                  %a{ href: '/' }ホーム
+
+    #content.container
+      %table.table.table-striped
+        %thead
+          %tr
+            %th url
+            %th added
+        %tbody
+          - @entries.each do |entry|
+            %tr
+              %td
+                %a{ href: add_schema(entry.url) } #{shorten(entry.url)}
+              %td #{entry.created_at}
+
       %p
         %form{ action: "/add", method: "post" }
+          add url:
           %input{ type: "texfield", name: "url", size: 100 }
           %input{ type: "submit", value: "send" }
