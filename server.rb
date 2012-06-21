@@ -42,4 +42,12 @@ helpers do
       url
     end
   end
+
+  def shorten(str, max = 20)
+    if str.length > max
+      "#{str[0..max.to_i]}..."
+    else
+      str
+    end
+  end
 end
