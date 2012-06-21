@@ -29,3 +29,17 @@ post '/add' do
   @entry.save
   redirect '/'
 end
+
+helpers do
+  def add_schema(url)
+    if url !~ /^https?/
+      if url =~ /\/\//
+        "http:#{url}"
+      else
+        "http://#{url}"
+      end
+    else
+      url
+    end
+  end
+end

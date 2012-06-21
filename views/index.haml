@@ -9,7 +9,7 @@
       %ul
         - @entries.each do |entry|
           %li
-            %a{ href: entry.url } #{entry.url}
+            %a{ href: add_schema(entry.url) } #{entry.url}
             (#{entry.created_at})
       %p
         %form{ action: "/add", method: "post" }
