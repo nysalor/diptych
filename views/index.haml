@@ -4,8 +4,10 @@
     %title #{@title}
   %body
     #header
-      %h1 Fly me to the moon.
+      %h1 Simple Bookmark
     #content
       %p
-        I use Haml
-        %span.version= Haml::VERSION
+        %form{ action: "/add", method: "post" }
+          %input{ type: "texfield", name: "url" }
+          %input{ type: "submit", value: "send" }
+
