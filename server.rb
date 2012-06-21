@@ -3,5 +3,6 @@ if development?
 end
 
 get '/' do
+  @title = 'diptych - TOP'
   haml :index
 end
