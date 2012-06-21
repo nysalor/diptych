@@ -25,7 +25,7 @@ get '/' do
 end
 
 post '/add' do
-  @entry = Entries.new :url => params[:url]
+  @entry = Entries.new :url => Sanitize.clean(params[:url])
   @entry.save
   redirect '/'
 end
