@@ -1,0 +1,16 @@
+# Logfile created on 2014-02-06 18:50:41 +0900 by logger.rb/44203
+I, [2014-02-06T18:50:41.187201 #50329]  INFO -- : 0:  backports (3.5.0) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/backports-3.5.0.gemspec
+I, [2014-02-06T18:50:41.187553 #50329]  INFO -- : 0:  tilt (1.4.1) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/tilt-1.4.1.gemspec
+I, [2014-02-06T18:50:41.922910 #50329]  INFO -- : 0:  haml (4.0.5) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/haml-4.0.5.gemspec
+I, [2014-02-06T18:50:42.537647 #50329]  INFO -- : 0:  mini_portile (0.5.2) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/mini_portile-0.5.2.gemspec
+I, [2014-02-06T18:50:43.253481 #50329]  INFO -- : 0:  multi_json (1.8.4) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/multi_json-1.8.4.gemspec
+I, [2014-02-06T18:52:00.576972 #50329]  INFO -- : 0:  nokogiri (1.6.1) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/nokogiri-1.6.1.gemspec
+I, [2014-02-06T18:52:00.577505 #50329]  INFO -- : 0:  rack (1.5.2) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rack-1.5.2.gemspec
+I, [2014-02-06T18:52:01.254720 #50329]  INFO -- : 0:  rack-protection (1.5.2) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rack-protection-1.5.2.gemspec
+I, [2014-02-06T18:52:01.255113 #50329]  INFO -- : 0:  rack-test (0.6.2) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/rack-test-0.6.2.gemspec
+I, [2014-02-06T18:52:01.988709 #50329]  INFO -- : 0:  sanitize (2.1.0) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/sanitize-2.1.0.gemspec
+I, [2014-02-06T18:52:03.567562 #50329]  INFO -- : 0:  sequel (4.7.0) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/sequel-4.7.0.gemspec
+I, [2014-02-06T18:52:04.378191 #50329]  INFO -- : 0:  sinatra (1.4.4) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/sinatra-1.4.4.gemspec
+I, [2014-02-06T18:52:05.176054 #50329]  INFO -- : 0:  sinatra-contrib (1.4.2) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/sinatra-contrib-1.4.2.gemspec
+I, [2014-02-06T18:52:07.784175 #50329]  INFO -- : 0:  sqlite3 (1.3.8) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/sqlite3-1.3.8.gemspec
+I, [2014-02-06T18:52:07.784602 #50329]  INFO -- : 0:  bundler (1.5.1) from /Users/jun/.rbenv/versions/2.1.0/lib/ruby/gems/2.1.0/specifications/bundler-1.5.1.gemspec
